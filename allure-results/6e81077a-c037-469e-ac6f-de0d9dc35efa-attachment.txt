@@ -1,0 +1,229 @@
+[INFO ] 2024-10-06 21:34:09.998 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240624[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-06 21:34:10.009 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-10-06 21:34:10.032 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-10-06 21:34:10.032 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-10-06 21:34:10.048 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-10-06 21:34:10.412 [main] Utils - [TestNG] Running:
+  C:\Users\acer\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-10-06 21:34:10.467 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-06 21:34:10.545 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-10-06 21:34:10.562 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-10-06 21:34:10.775 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                           'SearchProductsTests.setup'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-06 21:34:10.828 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-10-06 21:34:10.959 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-10-06 21:34:11.375 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\acer\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-10-06 21:34:11.377 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-10-06 21:34:11.377 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2024-10-06 21:34:12.724 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-10-06 21:34:12.879 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-10-06 21:34:13.525 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-10-06 21:34:13.528 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-10-06 21:34:13.528 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-10-06 21:34:13.529 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-10-06 21:34:13.529 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-10-06 21:34:13.529 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.1)[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-10-06 21:34:13.531 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-10-06 21:34:13.531 [] headers - >> Accept: */*
+[DEBUG] 2024-10-06 21:34:13.531 [] headers - >> Host: api.github.com
+[DEBUG] 2024-10-06 21:34:13.531 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-10-06 21:34:13.531 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.1)
+[DEBUG] 2024-10-06 21:34:13.531 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-10-06 21:34:13.999 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.002 [] wire -  << "Date: Sun, 06 Oct 2024 18:34:13 GMT[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.003 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.003 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.003 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.003 [] wire -  << "ETag: W/"947ca0a69a84e427f9148f417a1303488d474327416b84b154fea4487a8cc1d1"[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.003 [] wire -  << "Last-Modified: Tue, 01 Oct 2024 19:22:20 GMT[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.004 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.004 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.004 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.004 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.004 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.004 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-RateLimit-Reset: 1728243252[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.005 [] wire -  << "X-RateLimit-Used: 1[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.006 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.006 [] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.006 [] wire -  << "X-GitHub-Request-Id: C57B:15FB18:A7EDAE7:AA5F3B2:6702D824[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.006 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.008 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Date: Sun, 06 Oct 2024 18:34:13 GMT
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << ETag: W/"947ca0a69a84e427f9148f417a1303488d474327416b84b154fea4487a8cc1d1"
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Last-Modified: Tue, 01 Oct 2024 19:22:20 GMT
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-10-06 21:34:14.008 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << Server: github.com
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-RateLimit-Remaining: 59
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-RateLimit-Reset: 1728243252
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-RateLimit-Used: 1
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-10-06 21:34:14.009 [] headers - << X-GitHub-Request-Id: C57B:15FB18:A7EDAE7:AA5F3B2:6702D824
+[DEBUG] 2024-10-06 21:34:14.024 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-10-06 21:34:14.025 [] wire -  << "4EF[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.025 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Wo[0xdb]6[0x10][0xfd]*[0x82][0x8a]b@fI[0x96]";[0x8e][0x80][0xa2]Kb[0xb7])[0xd6]$h[0x93]aX[0xc0][0xa0]%Z"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "b"[0x89]*I9u[0x8d]|[0xf7]=[0xd2][0xb2]W[0xbb][0xa9][0xd3][0xc5][0xce]?[0x12]M[0x8b][0xef][0x8e][0xef][0x8e][0xef][0x8e]3[0xbb][0x16][0xb9][0x1d][0xd9][0x99]R[0x95][0x8c]<[0x8f]T[0xcc]M[0x99][0xca][0xea][0x91][0x1b][0xf3][0xc2][0x13][0xb4][0xe2][0xd2][0xbb][0xcc][0xc8]X[0x9d][0xbe][0xf3].O[0x8f]^][\r][0x7][0xe7][0xaf][0xdf][0x9c][0xf][0xf0]WN[0x89][0xa4][0xd2][0xf3][0xf][0xe]z[0x7][0xdd]N7[0xb0][6[0x91][0x92]*9[0xdc][0x1d][0xa6]7G[0x4]t][0xe5][0x9c]$k[0xd0][0xf3]I[0xf9]h[0x97][0x1b][0xf8][0xd9][0xcb][0x92][0x14][0xb4][0x95][0x93][0x11][0xcd][0xef]`+SE[0xbe]f[0xe9];R6[0xd3][0xa1]H[0xea][0xf5][0xdc][0xd0][\r][0xda]A[0xe8][0xb7][0xdb][0xbe]3[0xa2][0x8a][0x0][0x93]%v[0xb4][0xa4][\n]"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "L[0xd5]*[0xe3][0xc2][0x8e]fv[0xce]SV"[0x4]s[0xb][0xe][0x89][0x15][0xe3][0xa5][0xfc]8[0xe2][0xea]s[0xb3],[0xf4]{[0x87][0xbd][0xa0][0x17][0xb4][0xec][0x92]'t[0xa8][0x91][0xec][0xb3][0xfe]Y[0xf7]]q[0xd8]>[0xef][0xf][0xc2][0x8b][0xab]tz[0xd1][0xf3]B[0x7]`B[0x14][0x11][0xeb][0x1]0[0x93][0xb][0x96]jIE[0xcc]KEKeb[0xcc]J[0xcf][0xef][0xec]w{/'/B [0xa4][0xa2][0xc1]0f4[0xf1][0x9b][0x12]D[0x83]Io[0xd5][0xf5][0xe7][0x9d]c8[0xff][0xbc][0xd3][0x90]IRU[0xeb][0x8b][0xb1]f[0xcc][0xf3][0x9c][0xdf][0x2]w}[0x1b][0xab][0xb9][0xb9][0xd1][0xb4][0xb7][0x4]Y[0x2][0xb2]2[0xdd][0x1e][0x10] 3[0x8f][0xab][0x8c][0x82]cl]'K[0xca][0xe4]C)[0xbf][0xd9]U[0x3]0[0x3][0x89]R![0xb6][0x1a]R"\[0x82][0xae]'[0xfb][0xda][0xd9][0xdc][0xc][0xda]@[0xc0][0xd9][0xdb][0x12]~[0xce][0xcc]Q6[0xd8][0xf5]H[0xc6][0x82]U&[0xcb][0xb6]!d[0x5][0x8][0xc0]\[0xa4][0xa4]d[0xdf][0xc8][0xd6][0xc0][0x0][0x92][0xc0]3[0xda][0xb3][0x8d][0x83][0x6][0x0]@t[0x82]T[0xdf][\n]"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "i[0x8e]0[0xf3]*[0xc1]&$[0x9e]j[0x1a][0x5][0x8d])[0x9b] F[0xdb][0xa3][0xaf]A[0x1]\M+[0x8a][0xc3]w[0xcc][0x95][0xe][0x18]StH[0x92]B[0x8b][0xc4][0x98][0xe4][0x92][0xde]}[0xaf][0x3][0xef][0x7][0xc3][0x9b][0xdb][0xfe][0xc5][0xc9]kz[0xd5][0x95][0xe1][0x9f][0x5][0xeb]\j[0x0][0x92][0xe][0xb5][0xa4][0x1][0xe4]>-Bz[0xa5]T[\r]q[0xfa][0xb][0xa6][0x98][0xcc][0xf0]YA[0x80][0xf][0xe0][0x9f]/J[0x4][0xaa]@[0xe3]B[0xcb][0xae][0x4]m*[0xc0]r*[0x16][0x94](0B[0xf0][0x95][0xad][0xe5][0xcf][0xf1][0xdb]N[0xdb][0xbf][0xf2][0xf][0xa3][0xc0][0x8f][0xc2][0xce][0x7][0xe0]W[0xf5]([0x87][0xc1][0x9f]|[0x15]DA[[0xd5][0x88]~[0xf4][0xf1][0xb3][0xde][0x8a][0x18][0x91]|][0x8e][0xbd]N5[0xeb][0xef][0xd5][0xe4]o[0xac][0xda][\n]"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "[0xbb]Y/[0xf6][0x88]'S[0xf0][0xf0][0xec][0x99][0xf5]wF[0xd4]o[0xd2]:[0xc9]H[0x99][0xd2][0xe4]S[0xb9]g[0x1d][0xd7]Ee![0xcd][0xdd][0xeb][0xba]d*2Og[0xc4][0xb]k,[0xf0][0xe8][0xb8][0xbe][0xef][0xb6]-[0xc5][0xe7]#[0xdf][0x1a]M[0xad]?[0x12]Z[0xd1]2![0x10]V[0x8b][0x95][0xd6][0xa2]\?T[0x95][0xaa]:[0xcf]Q[0xa0][0xc3][0x3]m[0xf5][0xaf]*A|[0xac][0xf7][0x83][0xa3][0xfe][0xd9][0xc0]-[0x12][0x83]{tz6[0xe8][0xf7]O[0x7]o[0x8f][0xde][0xfe][0xf3][0x8][0xe4]N[0xa8][0x91][0xb]>[0x81]0Z[0xc8][0x90][0xd4]"e[0x82][0x1][0xaf][0xb4][0xff]%[0xbd][0xb5]b.[0xa8][0xb1]t[0xc6]32[0xc2][0x83][0xd1][0xc7][0xd8][0xd9]_[0xe1][0xad][0xe0][0xf1][\r]S<j[0xde][0x8e]1[0xb2] oI^[0x88][0xd1][0xd6][0xe4]u[0xba]+[0xa6]IE[0xe2][0x8c][0xba][0x5][0x81][0xaa][0xb8]U^[0xa3]x[0xcb][0xc8][0xfc]r[0xd2]*u[0xe6]3s_[0xf6][0xdd][0xc0][0xed]j[0x1e][0xf4][0xe0]`[0x7][0x9e]t[0xee][0xf3][0x4][0xfd][0x3]|H][0xbc][0xc3][0xeb][0xc8]<[0x1d][0x99][0x8f][0xc3][0xeb][0xc0]aE[0x95][0xcf]][0x9][0xdc]@[0x93][0x1]_[0xcc]h[0x7]9[0xd5]19[0xb5][0xcc][0xe4][0x86][0x96][0xfb][0x9c][0xf1][0xdd][0xc0][0xc1]y}2Gz[0xbf][0xea][0xc8]Y[0xf2][0x4]t[0x1c].[0xbd][0x80][0xac][0xba]c"[0x15][0x15]_[0x8b][0xdc][0xbd]&[0xf1][0x8d][0xe4][0xa5][0x8b][0xb3]G[0xb4][0xae]G[0xcd][0x84][0xb3][0x98]p[0xae][0x93][0x9b][0xde][0x82][0x1c][0xff][0xc0][\r][0xe6]Q[0xf2]{[0xbb]H[0xde][0xae]9[0x9f][0xcb](m<7M[0x82]@~v[0x92] [0xdd][0xd5]#[0xbb]!A[0x9e]09[0xba][0x81][0xde]?I[0x12]+[0xc6]uE[0x1c][0xd3]1[0x94][0xe2]jZ[0xe1][0xc0][0x9c][0xa1][0x97][0xb6][0xc6][0xf9]B[0xb2](*Z[0x8c][0xe6][0x5]:[0xc6][0xf3][0xc4][0xfc]![0xad][0xb9]DfE[0xf2][0x81][0x94][0x9c][0x97][0x8f][0x11].[0xe3][0x0].[0x2][0x87][0xce][0x18][0xe5][0xb1][0x16][0xd4][0x11][0xf4]KM[0xa5]r[0xe0][0x95][0x3]wb[0xea][0x8c][0x9][0xcb][0x1d]][0xf4][0x84]n[0x9e][0x9c][0x82]JIR[0x8a][0x19][0x87]~[0x8d][0xa9]i[0xd5][0x1c]*[0x4][0x17][0x8b][0xbf][0xb6][0x17][0xd4][0xae][0xd1][0x12]CL-[0x15][0xaa]Nc[0xd4][0x82]G[0xd8][0xe6][0x84][0xe4],[0xb1][0xd0][0xfa][0xef][0xc0][0x92][0xd1][0xcf][0xa6]Y[0xb0][0xc0]re[0xfd][0xd0][0x93][0xec][0xc0][\n]"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "[0xe4][0xe8]S[0x89]j{[0x8e][0x9a]s[0x82][0xeb][0x8d]`[0xa3]Zq![0xb5][0xf1][0xd5]*W[0x10][0x4][0x1e]-<[0x13][0xd6][0x98][0x9][0xa9]P[0xa2][0x9a][0xcf][0xc1][0xf3]cB[0x8c]3[0x6]+{[0xaf]Pl[0x9b]*[0xf][0x19][0xdc][0xdb][0x8b]~[0xb9]LC1*"([0xfa][0x8]T[\n]"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "4N[0xed]C4O[0xfa][0xde][0xe8][0xba][0xee][0xf]\[0x99][0xe6][0xb3][0xb9]%[0xea][0xfb][0xe3][0xc6][0xfb][0xd9][0xff][0xba][0xc0][0xe3][0x8e][0xb0][0xc0]E[0xdf][0xc5][0x15][0xc9][0xd1]"[0xd6]%[0xda]9[0xbf]e[0xff][0xee][0x9b][0x97][0x83]W[0xbb]e[0xe7][0xa4]N[0xd1]6b[0x94]q.[0x8]:[0x1d][0xc][0xc1][0xe3][0x18][0xb7][0x12][0xdc][0x1b][0xf5]<[0x8e][0x1b]Vb$P[0xac][0xe9]|H[0xa7]Tb[0xe][0x1d]l[0x81][0x9e][0xdc][0xdc]@[0x1a][0xb][0xe1][0xdd][0xbf]r[[0xc5][0xe][0x8b][0x10][0x0][0x0]"
+[DEBUG] 2024-10-06 21:34:14.026 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.027 [] wire -  << "0[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.027 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-10-06 21:34:14.027 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-10-06 21:34:14.150 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@41c4cba0
+[DEBUG] 2024-10-06 21:34:14.150 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-10-06 21:34:15.086 [] ReportManager - Engine Update check done for the day. 👍
+[WARN ] 2024-10-06 21:34:16.442 [main] ReportManager - Oct 06, 2024 9:34:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-10-06 21:34:16.442 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 129
+[INFO ] 2024-10-06 21:34:16.445 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-10-06 21:34:16.452 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-10-06 21:34:16.586 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                            Test Method: 'SearchProductsTests.validateSearchProducts'                                            
+                                                  Test Description: 'Validate search products'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-06 21:34:16.646 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2024-10-06 21:34:16.675 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-10-06 21:34:26.677 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2024-10-06 21:34:26.722 [main] ReportManager - Verify that the element located by "By.xpath: //a[@style="color: orange;"]" text contains "Home".
+[DEBUG] 2024-10-06 21:34:26.945 [main] ReportManager - Expected "Home", and actual "Home"
+[DEBUG] 2024-10-06 21:34:28.806 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:50555<->140.82.121.6:443 closed
+[INFO ] 2024-10-06 21:34:35.444 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_21-34-35-430_06102024'
+[INFO ] 2024-10-06 21:34:35.444 [main] ReportManager - Expected "Home", and actual "Home"
+[INFO ] 2024-10-06 21:34:35.444 [main] ReportManager - Verification passed
+[INFO ] 2024-10-06 21:34:35.679 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-10-06 21:34:43.555 [main] ReportManager - Click " Products".
+[INFO ] 2024-10-06 21:34:43.561 [main] ReportManager - Verify that the element located by "By.xpath: //h2[@class="title text-center"]" text is equal to "ALL PRODUCTS".
+[DEBUG] 2024-10-06 21:34:43.731 [main] ReportManager - Expected "ALL PRODUCTS", and actual "ALL PRODUCTS"
+[INFO ] 2024-10-06 21:34:50.612 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_21-34-50-581_06102024'
+[INFO ] 2024-10-06 21:34:50.612 [main] ReportManager - Expected "ALL PRODUCTS", and actual "ALL PRODUCTS"
+[INFO ] 2024-10-06 21:34:50.612 [main] ReportManager - Verification passed
+[INFO ] 2024-10-06 21:34:50.612 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: //input[@id='search_product']", isExpectedToBeVisible"true"...
+[INFO ] 2024-10-06 21:34:50.706 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: //input[@id='search_product'])" against "Search Product".
+[DEBUG] 2024-10-06 21:34:50.879 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-10-06 21:34:51.012 [main] ReportManager - Type "Tshirt" into "Search Product".
+[INFO ] 2024-10-06 21:34:51.210 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-10-06 21:34:53.663 [main] ReportManager - Click "".
+[INFO ] 2024-10-06 21:34:53.666 [main] ReportManager - Verify that the element located by "By.xpath: //h2[@class='title text-center']" text contains "SEARCHED PRODUCTS".
+[DEBUG] 2024-10-06 21:34:53.840 [main] ReportManager - Expected "SEARCHED PRODUCTS", and actual "SEARCHED PRODUCTS"
+[INFO ] 2024-10-06 21:34:55.529 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_21-34-55-529_06102024'
+[INFO ] 2024-10-06 21:34:55.529 [main] ReportManager - Expected "SEARCHED PRODUCTS", and actual "SEARCHED PRODUCTS"
+[INFO ] 2024-10-06 21:34:55.529 [main] ReportManager - Verification passed
+[INFO ] 2024-10-06 21:34:55.529 [main] ReportManager - Verify that the element located by "By.xpath: //div[@class='features_items']" text contains "Tshirt".
+[DEBUG] 2024-10-06 21:34:55.733 [main] ReportManager - Expected "Tshirt", and actual "SEARCHED PRODUCTS
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1299
+ Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo  T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product"
+[INFO ] 2024-10-06 21:34:57.428 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_21-34-57-428_06102024'
+[INFO ] 2024-10-06 21:34:57.428 [main] ReportManager - Expected "Tshirt", and actual "SEARCHED PRODUCTS
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1299
+ Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo  T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product"
+[INFO ] 2024-10-06 21:34:57.428 [main] ReportManager - Verification passed
+[INFO ] 2024-10-06 21:34:57.444 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validateSearchProducts'
+[INFO ] 2024-10-06 21:34:57.444 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'SearchProductsTests.validateSearchProducts'                                 
+                                                  Test Description: 'Validate search products'                                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-06 21:34:57.491 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-06 21:34:57.491 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

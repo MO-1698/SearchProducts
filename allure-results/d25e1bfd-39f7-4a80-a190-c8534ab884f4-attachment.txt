@@ -1,0 +1,86 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                            Test Method: 'SearchProductsTests.validateSearchProducts'                                            
+                                                  Test Description: 'Validate search products'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://automationexercise.com/" @06-10-2024 21:34:16.0646 PM
+[ReportManager] Initial URL: "about:blank" @06-10-2024 21:34:16.0675 PM
+[ReportManager] Navigate to url "https://automationexercise.com/". @06-10-2024 21:34:26.0677 PM
+[ReportManager] Verify that the element located by "By.xpath: //a[@style="color: orange;"]" text contains "Home". @06-10-2024 21:34:26.0722 PM
+[ReportManager] Expected "Home", and actual "Home" @06-10-2024 21:34:26.0945 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_21-34-35-430_06102024' @06-10-2024 21:34:35.0444 PM
+[ReportManager] Expected "Home", and actual "Home" @06-10-2024 21:34:35.0444 PM
+[ReportManager] Verification passed @06-10-2024 21:34:35.0444 PM
+[ReportManager] Moved the mouse to the middle of the element. @06-10-2024 21:34:35.0679 PM
+[ReportManager] Click " Products". @06-10-2024 21:34:43.0555 PM
+[ReportManager] Verify that the element located by "By.xpath: //h2[@class="title text-center"]" text is equal to "ALL PRODUCTS". @06-10-2024 21:34:43.0561 PM
+[ReportManager] Expected "ALL PRODUCTS", and actual "ALL PRODUCTS" @06-10-2024 21:34:43.0731 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_21-34-50-581_06102024' @06-10-2024 21:34:50.0597 PM
+[ReportManager] Expected "ALL PRODUCTS", and actual "ALL PRODUCTS" @06-10-2024 21:34:50.0612 PM
+[ReportManager] Verification passed @06-10-2024 21:34:50.0612 PM
+[ReportManager] Waiting for element to be present; elementLocator "By.xpath: //input[@id='search_product']", isExpectedToBeVisible"true"... @06-10-2024 21:34:50.0612 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: //input[@id='search_product'])" against "Search Product". @06-10-2024 21:34:50.0706 PM
+[ReportManager] Text cleared Using Native Clear @06-10-2024 21:34:50.0879 PM
+[ReportManager] Type "Tshirt" into "Search Product". @06-10-2024 21:34:51.0012 PM
+[ReportManager] Moved the mouse to the middle of the element. @06-10-2024 21:34:51.0210 PM
+[ReportManager] Click "". @06-10-2024 21:34:53.0663 PM
+[ReportManager] Verify that the element located by "By.xpath: //h2[@class='title text-center']" text contains "SEARCHED PRODUCTS". @06-10-2024 21:34:53.0666 PM
+[ReportManager] Expected "SEARCHED PRODUCTS", and actual "SEARCHED PRODUCTS" @06-10-2024 21:34:53.0840 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_21-34-55-529_06102024' @06-10-2024 21:34:55.0529 PM
+[ReportManager] Expected "SEARCHED PRODUCTS", and actual "SEARCHED PRODUCTS" @06-10-2024 21:34:55.0529 PM
+[ReportManager] Verification passed @06-10-2024 21:34:55.0529 PM
+[ReportManager] Verify that the element located by "By.xpath: //div[@class='features_items']" text contains "Tshirt". @06-10-2024 21:34:55.0529 PM
+[ReportManager] Expected "Tshirt", and actual "SEARCHED PRODUCTS
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1299
+ Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo  T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product" @06-10-2024 21:34:55.0733 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_21-34-57-428_06102024' @06-10-2024 21:34:57.0428 PM
+[ReportManager] Expected "Tshirt", and actual "SEARCHED PRODUCTS
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1299
+ Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo  T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product" @06-10-2024 21:34:57.0428 PM
+[ReportManager] Verification passed @06-10-2024 21:34:57.0428 PM
